@@ -54,7 +54,6 @@ static NSTimer *timer_;
     //停止之前的定时器
     [timer_ invalidate];
     
-    
     //显示窗口
     [self showWindow];
     //添加按钮
@@ -135,9 +134,6 @@ static NSTimer *timer_;
         window_ =nil;
         timer_ = nil;
     }];
-    
-    
-
 }
 
 @end
